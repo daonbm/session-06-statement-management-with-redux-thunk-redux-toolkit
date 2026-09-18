@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { closeTaskModal, addToast } from '../store/slices/uiSlice';
 import { useTaskActions } from '../store/useTaskActions';
-import { TaskStatus, TaskPriority } from '../types/task';
+import type { TaskStatus, TaskPriority } from '../types/task';
 import { X } from 'lucide-react';
 
 export const TaskModal: React.FC = () => {

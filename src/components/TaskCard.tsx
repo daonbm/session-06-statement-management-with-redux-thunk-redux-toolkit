@@ -1,5 +1,5 @@
 import React from 'react';
-import { Task } from '../types/task';
+import type { Task } from '../types/task';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { openEditModal, openDeleteModal, addToast } from '../store/slices/uiSlice';
 import { useTaskActions } from '../store/useTaskActions';
